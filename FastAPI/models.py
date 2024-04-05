@@ -11,7 +11,6 @@ class User(Base):
         backref="users",
         cascade="all"
     )
-
 class Post(Base):
     __tablename__="posts"
 
